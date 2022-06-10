@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    .special{
+        display:inline;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hello{
+        color:gray;
+        font-size:30px;
+    }
+    .hello:hover{
+        color:red;
+        font-size: 40px;
+    }
+    #div1{
+        height: 800px;
+        width: 100%;
+        background-image: url("https://technext.github.io/haircut/img/carousel-1.jpg");
+        background-size: cover;/*To make image fit the size of division*/
+    }
+    #container3{
+        background-color: black;
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .gh{
+        height: 800px;
+        width: 800px;
+        color: white;
+        font-size: 25px;
+        background-color: rgb(35, 39, 39);
+        padding-left: 50px;
+    }
+    </style>
+</head>
+<body>
+    
+    <ul style="list-style-type:none;background-color: black;">
+        <li class="special">
+        <img src="https://i.ytimg.com/vi/WujhDRc2HjY/maxresdefault.jpg" heigt="100" width="200">
+        </li>
+    
+    <li class="special">
+        <a class="hello" href="index.html">home</a>
+    </li>
+    
+    <li class="special">
+        <a class="hello" href="about.html">about</a>
+    </li>
+    
+    <li class="special">
+        <a class="hello" href="services.html">service</a>
+    </li>
+    
+    <li class="special">
+        <a class="hello" href="pages.html">pages</a>
+    </li>
+    
+    <li class="special">
+        <a class="hello" href="contact.html">contact</a>
+    </li>
+    
+    </ul>
+    <div id="div1">
+        <h1 style="color: white;font-size: 80px;padding-top: 300px;padding-left: 500px;">
+            CONTACT
+            <br/>
+        </h1>
+    </div>
+    <br/>
+    <div id="container3">
+        <div class="gh">
+            <h1>HAVE ANY QUERY? PLEASE CONTACT US!</h1>
+            <p>If you have any questions or inquery or any special requests then please fill out the form below and we will contact you within three hours and will be availble for your service</p>
+            <form method="post">
+                <input type="text" name="fname" placeholder="first name" size="30">
+                <input type="text" name="lname" placeholder="last name" size="30">
+                <br/>
+                <input type="text" name="subject" placeholder="subject" size="86">
+                <br/>
+                <textarea rows="5" cols="80" placeholder="message">
+
+                </textarea>
+                <br/>
+                <input type="submit" value="submit" style="width: 610px; height: 100px; background-color: red; color:white;">
+            </form>
+
+        </div>
+        <div class="gh">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.0598226573134!2d-83.03067438477363!3d40.249673279384844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838f08f09c8606b%3A0xe7af795836d3cd71!2s891%20Blackmore%20Dr%2C%20Delaware%2C%20OH%2043015!5e1!3m2!1sen!2sus!4v1654819692588!5m2!1sen!2sus" width="800" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
